@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\WEB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\airportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\controllers\\airportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\airportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -78,11 +90,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:37:42.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:35:33.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:35:04.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AirportsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AirportsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\AirportsController.cs",
@@ -90,12 +141,11 @@
               "RelativeToolTip": "WEB\\Controllers\\AirportsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:24:30.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T16:24:30.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\AdminsController.cs",
@@ -108,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Flights\\Index.cshtml",
               "RelativeDocumentMoniker": "WEB\\Views\\Flights\\Index.cshtml",
@@ -120,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "FlightsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\FlightsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\FlightsController.cs",
@@ -132,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Startup.Auth.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\App_Start\\Startup.Auth.cs",
               "RelativeDocumentMoniker": "WEB\\App_Start\\Startup.Auth.cs",
@@ -144,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AirlineReservationContext.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
               "RelativeDocumentMoniker": "WEB\\Data\\AirlineReservationContext.cs",
@@ -156,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "WEB\\Migrations\\Configuration.cs",
@@ -168,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Web.config",
               "RelativeDocumentMoniker": "WEB\\Web.config",
@@ -181,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Company.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Company.cs",
@@ -193,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Customer.cs",
@@ -205,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Ticket.cs",
@@ -217,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Flight.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Flight.cs",
@@ -229,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Airport.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Airport.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Airport.cs",
@@ -241,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Location.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Location.cs",
@@ -253,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Plane.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Plane.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Plane.cs",
@@ -265,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Admin.cs",
@@ -277,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Payment.cs",
