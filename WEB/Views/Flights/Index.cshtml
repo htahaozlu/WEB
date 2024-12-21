@@ -1,0 +1,111 @@
+﻿@model IEnumerable<WEB.Models.Flight>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdatedAt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeletedAt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AirportID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CompanyID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaneID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartureLocationID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArrivalLocationID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BusinessPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EconomyPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isCanceled)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedAt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpdatedAt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeletedAt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AirportID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaneID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartureLocationID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ArrivalLocationID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BusinessPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EconomyPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isCanceled)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

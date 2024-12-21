@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\source\\repos\\web\\web\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\source\\repos\\web\\web\\views\\flights\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\views\\flights\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\source\\repos\\WEB\\web\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T15:33:18.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Views\\Flights\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Flights\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Views\\Flights\\Index.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Flights\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:37:55.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\FlightsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T14:34:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "WEB\\App_Start\\Startup.Auth.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "WEB\\App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:32:01.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirlineReservationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
+              "RelativeDocumentMoniker": "WEB\\Data\\AirlineReservationContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
+              "RelativeToolTip": "WEB\\Data\\AirlineReservationContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:13:13.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WEB\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WEB\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:06:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Web.config",
+              "RelativeDocumentMoniker": "WEB\\Web.config",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Web.config",
+              "RelativeToolTip": "WEB\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T13:01:29.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Company.cs",
+              "RelativeToolTip": "WEB\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:58:58.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Customer.cs",
+              "RelativeToolTip": "WEB\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:58:41.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Ticket.cs",
+              "RelativeToolTip": "WEB\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:00:30.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Flight.cs",
+              "RelativeToolTip": "WEB\\Models\\Flight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:00:12.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Airport.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Airport.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Airport.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Airport.cs",
+              "RelativeToolTip": "WEB\\Models\\Airport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:59:36.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Location.cs",
+              "RelativeToolTip": "WEB\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:57:22.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Plane.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Plane.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Plane.cs",
+              "RelativeToolTip": "WEB\\Models\\Plane.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:59:13.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Admin.cs",
+              "RelativeToolTip": "WEB\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:58:22.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WEB\\WEB\\Models\\Payment.cs",
+              "RelativeToolTip": "WEB\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:57:40.673Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
