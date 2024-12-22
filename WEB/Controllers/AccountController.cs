@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
@@ -73,23 +74,45 @@ namespace WEB.Controllers
                 return View(model);
             }
 
-            // This doesn't count login failures towards account lockout
-            // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
-            switch (result)
+            using (var context = new AirlineReservationContext())
             {
-                case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
-                case SignInStatus.LockedOut:
-                    return View("Lockout");
-                case SignInStatus.RequiresVerification:
-                    return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
-                case SignInStatus.Failure:
-                default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
+                // Kullanıcıyı e-posta ile veritabanında arayın
+                var customer = await context.Customers
+                    .FirstOrDefaultAsync(c => c.Email == model.Email);
+
+                if (customer == null)
+                {
+                    ModelState.AddModelError("", "Invalid login attempt. User not found.");
                     return View(model);
+                }
+
+                // Parolayı doğrula
+                var passwordHasher = new Microsoft.AspNet.Identity.PasswordHasher();
+                var verificationResult = passwordHasher.VerifyHashedPassword(customer.Password, model.Password);
+
+                if (verificationResult != PasswordVerificationResult.Success)
+                {
+                    ModelState.AddModelError("", "Invalid login attempt. Incorrect password.");
+                    return View(model);
+                }
+
+                // ClaimsIdentity oluştur
+                var identity = new ClaimsIdentity(new[]
+                {
+            new Claim(ClaimTypes.Name, customer.Email),
+            new Claim(ClaimTypes.NameIdentifier, customer.ID.ToString())
+        }, DefaultAuthenticationTypes.ApplicationCookie);
+
+                // Oturumu başlat
+                var authManager = HttpContext.GetOwinContext().Authentication;
+                authManager.SignIn(new AuthenticationProperties { IsPersistent = model.RememberMe }, identity);
+
+                return RedirectToLocal(returnUrl);
             }
         }
+
+
+
 
         //
         // GET: /Account/VerifyCode
@@ -151,26 +174,32 @@ namespace WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
-                var result = await UserManager.CreateAsync(user, model.Password);
-                if (result.Succeeded)
+                using (var context = new AirlineReservationContext())
                 {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
-                    // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
-                    // Send an email with this link
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+                    var customer = new Customer
+                    {
+                        FirstName = model.FirstName,
+                        LastName = model.LastName,
+                        NationalID = model.NationalID,
+                        PassportNumber = model.PassportNumber,
+                        PhoneNumber = model.PhoneNumber,
+                        Email = model.Email,
+                        Password = UserManager.PasswordHasher.HashPassword(model.Password), // Şifreyi hashleyerek kaydedin
+                        CreatedAt = DateTime.Now,
+                    };
 
-                    return RedirectToAction("Index", "Home");
+                    context.Customers.Add(customer);
+                    await context.SaveChangesAsync();
                 }
-                AddErrors(result);
+
+                return RedirectToAction("Index", "Home");
             }
 
-            // If we got this far, something failed, redisplay form
             return View(model);
         }
+
+
+
 
         //
         // GET: /Account/ConfirmEmail
@@ -388,12 +417,12 @@ namespace WEB.Controllers
         //
         // POST: /Account/LogOff
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
             return RedirectToAction("Index", "Home");
         }
+
 
         //
         // GET: /Account/ExternalLoginFailure

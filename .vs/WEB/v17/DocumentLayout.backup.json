@@ -3,19 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\WEB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AirlineReservationDB/True/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|c:\\users\\asus\\web\\web\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,10 +74,6 @@
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\data\\airlinereservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,10 +110,6 @@
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|C:\\Users\\ASUS\\WEB\\web\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0972538B-397F-434D-948C-73330E8325BE}|WEB\\WEB.csproj|solutionrelative:web\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -102,24 +121,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "WEB\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "WEB\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:40:56.743Z",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T11:34:20.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T11:13:27.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "WEB\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAKMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T11:02:07.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Customer.cs",
+              "RelativeToolTip": "WEB\\Models\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:58:41.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "WEB\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T10:54:59.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Customers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AirlineReservationDB/True/SqlTable/dbo.Customers.sql",
+              "ToolTip": "dbo.Customers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-22T11:32:41.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\TicketsController.cs",
@@ -132,7 +213,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "AirlineReservationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
+              "RelativeDocumentMoniker": "WEB\\Data\\AirlineReservationContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
+              "RelativeToolTip": "WEB\\Data\\AirlineReservationContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T13:13:13.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:40:56.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PlanesController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\PlanesController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\PlanesController.cs",
@@ -145,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\LocationsController.cs",
@@ -158,7 +265,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Admin.cs",
+              "RelativeToolTip": "WEB\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:58:22.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\CustomersController.cs",
@@ -166,11 +286,12 @@
               "RelativeToolTip": "WEB\\Controllers\\CustomersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:35:33.198Z"
+              "WhenOpened": "2024-12-21T16:35:33.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "CompaniesController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\CompaniesController.cs",
@@ -178,11 +299,12 @@
               "RelativeToolTip": "WEB\\Controllers\\CompaniesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:35:04.055Z"
+              "WhenOpened": "2024-12-21T16:35:04.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "AirportsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AirportsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\AirportsController.cs",
@@ -190,11 +312,12 @@
               "RelativeToolTip": "WEB\\Controllers\\AirportsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:24:30.308Z"
+              "WhenOpened": "2024-12-21T16:24:30.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "AdminsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\AdminsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\AdminsController.cs",
@@ -202,11 +325,12 @@
               "RelativeToolTip": "WEB\\Controllers\\AdminsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T15:33:18.846Z"
+              "WhenOpened": "2024-12-21T15:33:18.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Views\\Flights\\Index.cshtml",
               "RelativeDocumentMoniker": "WEB\\Views\\Flights\\Index.cshtml",
@@ -214,11 +338,12 @@
               "RelativeToolTip": "WEB\\Views\\Flights\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T14:37:55.381Z"
+              "WhenOpened": "2024-12-21T14:37:55.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "FlightsController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Controllers\\FlightsController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\FlightsController.cs",
@@ -226,11 +351,12 @@
               "RelativeToolTip": "WEB\\Controllers\\FlightsController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAYwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:34:48.205Z"
+              "WhenOpened": "2024-12-21T14:34:48.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Startup.Auth.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\App_Start\\Startup.Auth.cs",
               "RelativeDocumentMoniker": "WEB\\App_Start\\Startup.Auth.cs",
@@ -238,23 +364,12 @@
               "RelativeToolTip": "WEB\\App_Start\\Startup.Auth.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:32:01.292Z"
+              "WhenOpened": "2024-12-21T13:32:01.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AirlineReservationContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
-              "RelativeDocumentMoniker": "WEB\\Data\\AirlineReservationContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Data\\AirlineReservationContext.cs",
-              "RelativeToolTip": "WEB\\Data\\AirlineReservationContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:13:13.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "WEB\\Migrations\\Configuration.cs",
@@ -262,11 +377,12 @@
               "RelativeToolTip": "WEB\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:06:53.046Z"
+              "WhenOpened": "2024-12-21T13:06:53.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Web.config",
               "RelativeDocumentMoniker": "WEB\\Web.config",
@@ -279,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Company.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Company.cs",
@@ -287,23 +403,12 @@
               "RelativeToolTip": "WEB\\Models\\Company.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:58:58.043Z"
+              "WhenOpened": "2024-12-21T12:58:58.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "WEB\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Customer.cs",
-              "RelativeToolTip": "WEB\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:58:41.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Ticket.cs",
@@ -311,11 +416,12 @@
               "RelativeToolTip": "WEB\\Models\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:00:30.134Z"
+              "WhenOpened": "2024-12-21T13:00:30.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Flight.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Flight.cs",
@@ -323,11 +429,12 @@
               "RelativeToolTip": "WEB\\Models\\Flight.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:00:12.897Z"
+              "WhenOpened": "2024-12-21T13:00:12.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Airport.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Airport.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Airport.cs",
@@ -335,11 +442,12 @@
               "RelativeToolTip": "WEB\\Models\\Airport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:59:36.611Z"
+              "WhenOpened": "2024-12-21T12:59:36.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Location.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Location.cs",
@@ -347,11 +455,12 @@
               "RelativeToolTip": "WEB\\Models\\Location.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:57:22.249Z"
+              "WhenOpened": "2024-12-21T12:57:22.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Plane.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Plane.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Plane.cs",
@@ -359,23 +468,12 @@
               "RelativeToolTip": "WEB\\Models\\Plane.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:59:13.878Z"
+              "WhenOpened": "2024-12-21T12:59:13.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "WEB\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Admin.cs",
-              "RelativeToolTip": "WEB\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:58:22.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\WEB\\WEB\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "WEB\\Models\\Payment.cs",
@@ -383,7 +481,8 @@
               "RelativeToolTip": "WEB\\Models\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:57:40.673Z"
+              "WhenOpened": "2024-12-21T12:57:40.673Z",
+              "EditorCaption": ""
             }
           ]
         }
