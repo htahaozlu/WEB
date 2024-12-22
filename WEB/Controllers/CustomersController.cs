@@ -7,9 +7,11 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WEB.Models;
+using WEB.Infrastructure;
 
 namespace WEB.Controllers
 {
+    [RoleAuthorize("Admin")]
     public class CustomersController : Controller
     {
         private AirlineReservationContext db = new AirlineReservationContext();

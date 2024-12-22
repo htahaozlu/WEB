@@ -99,9 +99,12 @@ namespace WEB.Controllers
                 // ClaimsIdentity oluştur
                 var identity = new ClaimsIdentity(new[]
                 {
-            new Claim(ClaimTypes.Name, customer.Email),
-            new Claim(ClaimTypes.NameIdentifier, customer.ID.ToString())
-        }, DefaultAuthenticationTypes.ApplicationCookie);
+                    new Claim(ClaimTypes.Name, customer.Email),
+                    new Claim(ClaimTypes.GivenName, customer.FirstName),
+                    new Claim(ClaimTypes.Surname, customer.LastName),
+                    new Claim(ClaimTypes.NameIdentifier, customer.ID.ToString()),
+                    new Claim(ClaimTypes.Role, "Customer")
+                }, DefaultAuthenticationTypes.ApplicationCookie);
 
                 // Oturumu başlat
                 var authManager = HttpContext.GetOwinContext().Authentication;
@@ -111,8 +114,50 @@ namespace WEB.Controllers
             }
         }
 
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> AdminLogin(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                using (var context = new AirlineReservationContext())
+                {
+                    var admin = context.Admins.FirstOrDefault(a => a.Email == model.Email);
 
+                    if (admin == null)
+                    {
+                        ModelState.AddModelError("", "Invalid login attempt. Admin not found.");
+                        return View(model);
+                    }
 
+                    var passwordHasher = new Microsoft.AspNet.Identity.PasswordHasher();
+                    var verificationResult = passwordHasher.VerifyHashedPassword(admin.Password, model.Password);
+
+                    if (verificationResult != PasswordVerificationResult.Success)
+                    {
+                        ModelState.AddModelError("", "Invalid login attempt. Incorrect password.");
+                        return View(model);
+                    }
+
+                    var identity = new ClaimsIdentity(new[]
+                    {
+                        new Claim(ClaimTypes.Name, admin.Email),
+                        new Claim(ClaimTypes.GivenName, admin.FirstName),
+                        new Claim(ClaimTypes.Surname, admin.LastName),
+                        new Claim(ClaimTypes.NameIdentifier, admin.ID.ToString()),
+                        new Claim(ClaimTypes.Role, "Admin")
+                    }, DefaultAuthenticationTypes.ApplicationCookie);
+
+                    var authManager = HttpContext.GetOwinContext().Authentication;
+                    authManager.SignIn(new AuthenticationProperties { IsPersistent = model.RememberMe }, identity);
+
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+
+            return View(model);
+        }
 
         //
         // GET: /Account/VerifyCode

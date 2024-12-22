@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WEB.Models;
+using WEB.Infrastructure;
 
 namespace WEB.Controllers
 {
@@ -36,16 +37,16 @@ namespace WEB.Controllers
         }
 
         // GET: Flights/Create
+        [RoleAuthorize("Admin")]
         public ActionResult Create()
         {
             return View();
         }
 
         // POST: Flights/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [RoleAuthorize("Admin")]
         public ActionResult Create([Bind(Include = "ID,CreatedAt,UpdatedAt,DeletedAt,AirportID,CompanyID,PlaneID,DepartureLocationID,ArrivalLocationID,StartTime,EndTime,Date,BusinessPrice,EconomyPrice,isCanceled")] Flight flight)
         {
             if (ModelState.IsValid)
@@ -59,6 +60,7 @@ namespace WEB.Controllers
         }
 
         // GET: Flights/Edit/5
+        [RoleAuthorize("Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -74,10 +76,9 @@ namespace WEB.Controllers
         }
 
         // POST: Flights/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [RoleAuthorize("Admin")]
         public ActionResult Edit([Bind(Include = "ID,CreatedAt,UpdatedAt,DeletedAt,AirportID,CompanyID,PlaneID,DepartureLocationID,ArrivalLocationID,StartTime,EndTime,Date,BusinessPrice,EconomyPrice,isCanceled")] Flight flight)
         {
             if (ModelState.IsValid)
@@ -90,6 +91,7 @@ namespace WEB.Controllers
         }
 
         // GET: Flights/Delete/5
+        [RoleAuthorize("Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -107,6 +109,7 @@ namespace WEB.Controllers
         // POST: Flights/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [RoleAuthorize("Admin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Flight flight = db.Flights.Find(id);
