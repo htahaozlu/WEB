@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -63,17 +65,33 @@ namespace WEB.Controllers
                 : message == ManageMessageId.RemovePhoneSuccess ? "Your phone number was removed."
                 : "";
 
+            // Kullanıcının ID'sini al
             var userId = User.Identity.GetUserId();
-            var model = new IndexViewModel
+
+            // Kullanıcı bilgilerini veritabanından al
+            using (var context = new AirlineReservationContext())
             {
-                HasPassword = HasPassword(),
-                PhoneNumber = await UserManager.GetPhoneNumberAsync(userId),
-                TwoFactor = await UserManager.GetTwoFactorEnabledAsync(userId),
-                Logins = await UserManager.GetLoginsAsync(userId),
-                BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId)
-            };
-            return View(model);
+                var customer = await context.Customers.FirstOrDefaultAsync(c => c.ID.ToString() == userId);
+
+                if (customer == null)
+                {
+                    return RedirectToAction("Login", "Account");
+                }
+
+                // Kullanıcı bilgilerini ViewModel'e aktar
+                var model = new IndexViewModel
+                {
+                    HasPassword = !string.IsNullOrEmpty(customer.Password),
+                    PhoneNumber = customer.PhoneNumber,
+                    TwoFactor = false, // Customer tablosunda iki faktör doğrulama bilgisi yoksa false olarak ayarlanır
+                    Logins = new List<UserLoginInfo>(), // Customer tablosunda login bilgisi yoksa boş bırakılır
+                    BrowserRemembered = false // Customer tablosunda browser hatırlama özelliği yoksa false ayarlanır
+                };
+
+                return View(model);
+            }
         }
+
 
         //
         // POST: /Manage/RemoveLogin
@@ -355,13 +373,23 @@ namespace WEB.Controllers
 
         private bool HasPassword()
         {
-            var user = UserManager.FindById(User.Identity.GetUserId());
-            if (user != null)
+            using (var context = new AirlineReservationContext())
             {
-                return user.PasswordHash != null;
+                // Oturum açan kullanıcının ID'sini alın
+                var userId = User.Identity.GetUserId();
+
+                // Veritabanından kullanıcıyı bulun
+                var customer = context.Customers.FirstOrDefault(c => c.ID.ToString() == userId);
+
+                if (customer != null)
+                {
+                    // Parolanın mevcut olup olmadığını kontrol edin
+                    return !string.IsNullOrEmpty(customer.Password);
+                }
+                return false;
             }
-            return false;
         }
+
 
         private bool HasPhoneNumber()
         {
