@@ -114,49 +114,60 @@ namespace WEB.Controllers
             }
         }
 
+        //
+        // GET: /Account/AdminLogin
+        [AllowAnonymous]
+        public ActionResult AdminLogin(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+        //
+        // POST: /Account/AdminLogin
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> AdminLogin(LoginViewModel model)
+        public async Task<ActionResult> AdminLogin(LoginViewModel model, string returnUrl)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                using (var context = new AirlineReservationContext())
-                {
-                    var admin = context.Admins.FirstOrDefault(a => a.Email == model.Email);
-
-                    if (admin == null)
-                    {
-                        ModelState.AddModelError("", "Invalid login attempt. Admin not found.");
-                        return View(model);
-                    }
-
-                    var passwordHasher = new Microsoft.AspNet.Identity.PasswordHasher();
-                    var verificationResult = passwordHasher.VerifyHashedPassword(admin.Password, model.Password);
-
-                    if (verificationResult != PasswordVerificationResult.Success)
-                    {
-                        ModelState.AddModelError("", "Invalid login attempt. Incorrect password.");
-                        return View(model);
-                    }
-
-                    var identity = new ClaimsIdentity(new[]
-                    {
-                        new Claim(ClaimTypes.Name, admin.Email),
-                        new Claim(ClaimTypes.GivenName, admin.FirstName),
-                        new Claim(ClaimTypes.Surname, admin.LastName),
-                        new Claim(ClaimTypes.NameIdentifier, admin.ID.ToString()),
-                        new Claim(ClaimTypes.Role, "Admin")
-                    }, DefaultAuthenticationTypes.ApplicationCookie);
-
-                    var authManager = HttpContext.GetOwinContext().Authentication;
-                    authManager.SignIn(new AuthenticationProperties { IsPersistent = model.RememberMe }, identity);
-
-                    return RedirectToAction("Index", "Home");
-                }
+                return View(model);
             }
 
-            return View(model);
+            using (var context = new AirlineReservationContext())
+            {
+                var admin = await context.Admins.FirstOrDefaultAsync(a => a.Email == model.Email);
+
+                if (admin == null)
+                {
+                    ModelState.AddModelError("", "Invalid login attempt. Admin not found.");
+                    return View(model);
+                }
+
+                var passwordHasher = new Microsoft.AspNet.Identity.PasswordHasher();
+                var verificationResult = passwordHasher.VerifyHashedPassword(admin.Password, model.Password);
+
+                if (verificationResult != PasswordVerificationResult.Success)
+                {
+                    ModelState.AddModelError("", "Invalid login attempt. Incorrect password.");
+                    return View(model);
+                }
+
+                var identity = new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, admin.Email),
+                    new Claim(ClaimTypes.GivenName, admin.FirstName),
+                    new Claim(ClaimTypes.Surname, admin.LastName),
+                    new Claim(ClaimTypes.NameIdentifier, admin.ID.ToString()),
+                    new Claim(ClaimTypes.Role, "Admin")
+                }, DefaultAuthenticationTypes.ApplicationCookie);
+
+                var authManager = HttpContext.GetOwinContext().Authentication;
+                authManager.SignIn(new AuthenticationProperties { IsPersistent = model.RememberMe }, identity);
+
+                return RedirectToLocal(returnUrl);
+            }
         }
 
         //
